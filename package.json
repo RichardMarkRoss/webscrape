@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "start": "open-cli index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RichardMarkRoss/webscrape/issues"
   },
-  "homepage": "https://github.com/RichardMarkRoss/webscrape#readme"
+  "homepage": "https://github.com/RichardMarkRoss/webscrape#readme",
+  "devDependencies": {
+    "open-cli": "^7.1.0"
+  }
 }
